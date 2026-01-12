@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codecrafterstudios Portfolio</title>
+    <!--Linking to fontawesome for inserting social media icons-->
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/
+    7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nod
+    KhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!--link to css file-->
+     <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <!--Navigation-->
+    <nav class="navbar">
+        <a href="#home" class="logo">CCodestudios</a>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="#contact">Contacts</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Full Front End Web Developer/Programmer</h1>
+      <p>I build clean responsive websites for small businesses using HTML, CSS, JavaScript</p>
+      <p class="highlight">I help businesses and individuals get modern website that looks professional,
+        work on all devices, and are easy for customers to use
+      </p>
+      <a href="#contact" class="cta-button">Contact me</a>
+    </div>
+    <div class="hero-image">
+      <img src="/images/Profile-image.png" alt="Profile" class="profile-img">
+    </div>
+  </section>
+
+  
+        <!--About section-->
+        <section class="about-section" id="about">
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="images/about-image.jpg" alt="About" class="about-image">
+                </div>
+                <div class="about-details">
+                    <h2 class="section-title">About Us</h2>
+                    <p class="text">Hi, I’m Emmanuel, a web developer who builds responsive 
+                            and user-friendly websites using HTML, CSS, and JavaScript.
+
+                            I focus on creating simple, clean designs that help businesses 
+                            showcase their services and connect with customers online.
+                    <div class="social-link-list">
+                        <a href="#" class="social-link"><i class="fa-brands 
+                        fa-facebook"></i>
+                        <a href="#" class="social-link"><i class="fa-brands 
+                        fa-instagram"></i>
+                        <a href="#" class="social-link"><i class="fa-brands 
+                        fa-x-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h2>Technical Expertise</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <i class="fa-regular fa-code"></i>
+        <h3>Frontend Developer</h3>
+        <p>Html, Css, Javascrpit, wordpress</p>
+        </div>
+        <div class="skill-card">
+            <i class="fa-solid fa-paintbrush"></i>
+            <h3>Website Deployment</h3>
+            <p>Github Pages/Netlify</p>
+        </div>
+    </div>
+</section>
+
+  <!--Contact-section-->
+        <section class="contact-section" id="contact">
+            <h2 class="section-title">Contact-us</h2>
+            <div class="section-content">
+                <ul class="contact-info-list">
+                    <li class="contact-info">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <p>123 Campsite Avenue, Wilderness, CA 98765</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>info@CCodestudios.com</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>(123) 456 78909</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-globe"></i>
+                        <p>www.ccodestudios.wordpress.com</p>
+                    </li>
+                </ul>
+
+                <form action="#" class="contact-form">
+                    <input type="text" placeholder="Your name" class="form-input" required>
+                    <input type="email" placeholder="Your email"  class="form-input" required>
+                    <textarea placeholder="Your message" class="form-input" required></textarea>
+                    <button class="submit-button">Submit</button>
+                </form>
+            </div>
+        </section>
+
+<!--footer-->
+<footer>
+<p>&copy; 2024 CCodestudios All right reserved</p>
+<div class="social-links">
+    <a href="#"><i class="fa-solid fa-github"></i></a>
+    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+
+</div>
+</footer>
+
+<!--link to javascript file-->
+<script src="portfolio.js"></script>
+</body>
+</html>
